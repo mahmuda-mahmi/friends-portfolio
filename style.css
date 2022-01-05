@@ -15,6 +15,11 @@ body{
 h1{
     font-size: 50px;
 }
+a{
+    text-decoration: none;
+    color: rgb(4, 47, 165);
+    font-weight: 200;
+}
 h3{
     font-size: 25px;
     color: sienna;
@@ -42,7 +47,7 @@ section{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .half-width{
     width: 50%;
@@ -61,4 +66,83 @@ section{
     padding: 10px;
     display: inline-block;
     font-weight: 700;
+}
+.submit{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border: none;
+    border-radius: 10px;
+    color: rgb(236, 222, 222);
+    font-size: 12px;
+    padding: 5px;
+    display: inline-block;
+    font-weight: 600;
+}
+footer{
+    text-align: center;
+    font-weight: 200;
+    font-size: 15px;
+    color: rgba(11, 15, 15, 0.877);
+}
+.footer1{
+    font-size: 15px;
+    color: rgb(56, 50, 50);
+    font-weight: 200;
+}
+#line{
+    margin-left:15px;
+}
+/* .charecters{
+    display: flex;
+    border-left: 1px solid;
+    margin-bottom: 70px;
+} */
+.boys{
+display: flex;
+flex-direction: row;
+margin-bottom: 35px;
+}
+.girls{
+display: flex;
+flex-direction: row;
+margin-bottom: 150px;
+}
+.container{
+box-sizing: border-box;
+display: flex;
+margin-bottom: 50px;
+}
+.char-fren{
+width:20% ;
+border-radius: 10px ;
+box-shadow:10px 10px 30px grey ;
+margin-left:4% ;
+margin-right:4% ;
+padding: 5px 30px;
+background-color: rgb(250, 250, 250);
+text-align: left;
+}
+#ross{
+    border-left: 7px solid;
+    border-image: linear-gradient(red,tomato) 30;
+}
+#mon{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan) 30;
+}
+#chand{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(88, 72, 104), rgb(199, 9, 88)) 30;
+}
+#rach{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgba(66, 66, 207, 0.219), rgb(11, 13, 107)) 30;
+}
+#phoebe{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(22, 22, 243), rgb(13, 139, 139)) 30;
+}
+#joey{
+    border-left: 7px solid;
+    border-image: linear-gradient(orange, rgb(247, 9, 9)) 30;
 }
