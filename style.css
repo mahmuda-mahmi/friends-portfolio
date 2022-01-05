@@ -17,20 +17,24 @@ h1{
 }
 h3{
     font-size: 25px;
+    color: sienna;
 }
 p{
     text-align: justify;
     font-size: 20px;
     font-weight: 550;
 }
-.head{
-    text-align: center;
-    margin-top: 80px;
-    margin-bottom: 80px;
+section{
+    display: block;
 }
 #main{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
     color: rgb(211, 202, 81);
+}
+.head{
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 .name-color{
     text-transform: uppercase;
@@ -46,4 +50,15 @@ p{
 }
 .half-width img{
     width: 80%;
+}
+.btn{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border: none;
+    border-radius: 10px;
+    color: rgb(236, 222, 222);
+    font-size: 17px;
+    padding: 10px;
+    display: inline-block;
+    font-weight: 700;
 }
